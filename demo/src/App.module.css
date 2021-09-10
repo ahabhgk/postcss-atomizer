@@ -1,17 +1,6 @@
 .App {
+  /* color: white; */
   text-align: center;
-}
-
-.AppLogo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .AppLogo {
-    display: block;
-    /* animation: App-logo-spin infinite 20s linear; */
-  }
 }
 
 .AppHeader {
@@ -23,21 +12,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  pointer-events: none;
 }
 
 .AppLink {
+  /* text-align: center; */
+  /* display: flex; */
   color: #61dafb;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* button {
-  font-size: calc(10px + 2vmin);
-} */
